@@ -377,16 +377,17 @@ namespace Day7 {
 
          for (int i = 0; i < currentChunk.childrenChunks.Count; i++) {
             Chunk child = currentChunk.childrenChunks[i];
-            int d = 0;
-            {
-               Chunk cc = currentChunk;
-               while (cc.parentChunk != null) {
-                  d++;
-                  cc = cc.parentChunk;
-               }
-            }
-            WalkTree(child, d);
+            //int d = 0;
+            //{
+            //   Chunk cc = currentChunk;
+            //   while (cc.parentChunk != null) {
+            //      d++;
+            //      cc = cc.parentChunk;
+            //   }
+            //}
+            //WalkTree(child, d);
             //WalkTree(child, ++depth); // ++depth is not working.
+            WalkTree(child, depth + 1); // depth + 1 is working. but ++depth is not. UPDATE: oh. you fucking dummy. it is in for loop. stupid dumb fuck. looking for hours just to notice this. omaygat i cant even.
          }
       }
 
