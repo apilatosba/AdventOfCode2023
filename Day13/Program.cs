@@ -3,7 +3,7 @@ using System.IO;
 using System.Linq;
 
 namespace Day13 {
-   internal class Program {
+   public class Program {
       static void Main(string[] args) {
          Part2();
       }
@@ -105,7 +105,7 @@ namespace Day13 {
          return differences;
       }
 
-      static string[] Transpose(string[] array) {
+      public static string[] Transpose(string[] array) {
          if (array.Length == 0)
             return new string[0];
 
