@@ -1,0 +1,13 @@
+###    if acc is # then it is inside
+# #    acc ^= current 
+#####  #  
+  # #
+  # #
+  # #
+  ###
+        
+        
+        
+        
+        
+
