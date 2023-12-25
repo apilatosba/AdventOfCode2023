@@ -364,3 +364,8 @@ FodyWeavers.xsd
 
 **/sample input.txt
 **/input.txt
+
+# Although not raw still contains input data from AoC
+graphviz.gv
+notgraphviz.py
+graph.png.svg
